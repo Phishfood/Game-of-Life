@@ -1,0 +1,50 @@
+﻿Build started 29/07/2015 16:49:39.
+     1>Project "C:\Users\Simon\Documents\GitHub\Game-of-Life\GraphicsAssign1_2012.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IHelpers /IImport /IImport\Common /IImport\Math /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Scene.cpp
+         Scene.cpp
+     1>c:\users\simon\documents\github\game-of-life\scene.cpp(34): warning C4316: 'CCamera' : object allocated on the heap may not be aligned 16
+     1>c:\users\simon\documents\github\game-of-life\scene.cpp(886): warning C4316: 'CModel' : object allocated on the heap may not be aligned 16
+     1>c:\users\simon\documents\github\game-of-life\scene.cpp(900): warning C4316: 'CModel' : object allocated on the heap may not be aligned 16
+     1>c:\users\simon\documents\github\game-of-life\scene.cpp(915): warning C4316: 'CModel' : object allocated on the heap may not be aligned 16
+     1>c:\users\simon\documents\github\game-of-life\scene.cpp(959): warning C4316: 'CModel' : object allocated on the heap may not be aligned 16
+     1>c:\users\simon\documents\github\game-of-life\scene.cpp(980): warning C4316: 'CModel' : object allocated on the heap may not be aligned 16
+     1>c:\users\simon\documents\github\game-of-life\scene.cpp(991): warning C4316: 'CModel' : object allocated on the heap may not be aligned 16
+     1>c:\users\simon\documents\github\game-of-life\scene.cpp(1002): warning C4316: 'CModel' : object allocated on the heap may not be aligned 16
+     1>c:\users\simon\documents\github\game-of-life\scene.cpp(1046): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\GraphicsAssign1.exe" /INCREMENTAL /NOLOGO winmm.lib d3d10.lib d3dx10d.lib d3dx9d.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"Debug\GraphicsAssign1.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\GraphicsAssign1.lib" /MACHINE:X86 /SAFESEH:NO Debug\GraphicsAssign1.res
+         Debug\Camera.obj
+         Debug\CTimer.obj
+         Debug\Colours.obj
+         Debug\CImportXFile.obj
+         Debug\CFatalException.obj
+         Debug\MSDefines.obj
+         Debug\Utility.obj
+         Debug\BaseMath.obj
+         Debug\CMatrix2x2.obj
+         Debug\CMatrix3x3.obj
+         Debug\CMatrix4x4.obj
+         Debug\CQuaternion.obj
+         Debug\CQuatTransform.obj
+         Debug\CVector2.obj
+         Debug\CVector3.obj
+         Debug\CVector4.obj
+         Debug\MathIO.obj
+         Debug\Light.obj
+         Debug\Model.obj
+         Debug\GraphicsAssign1.obj
+         Debug\Input.obj
+         Debug\RenderObject.obj
+         Debug\Scene.obj
+         Debug\TextureManager.obj
+         GraphicsAssign1_2012.vcxproj -> C:\Users\Simon\Documents\GitHub\Game-of-Life\Debug\GraphicsAssign1.exe
+       PostBuildEvent:
+         copy "C:\Users\Simon\Documents\GitHub\Game-of-Life\GraphicsAssign1.fx" "C:\Users\Simon\Documents\GitHub\Game-of-Life\Debug\"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\Simon\Documents\GitHub\Game-of-Life\GraphicsAssign1_2012.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.62
